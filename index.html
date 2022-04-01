@@ -5,39 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;600;700&display=swap');
-    
-    *{
-        text-decoration: none;
-        font-family: 'Barlow', sans-serif;
-    }    
-    body{
-        background-color: #1D1E18;
-        color: #D3D4D9;
-    }
-
-    h1{
-        font-family: 'Barlow', sans-serif;
-        font-weight: 600;
-    }
-
-    p{
-        font-family: 'Barlow', sans-serif;
-    }
-
-    #skill-main{
-        font-size: 1.03em;
-    }
-
-    .indice{
-        color: #D3D4D9;
-        background-color: #453488;
-        line-height: 35px;
-        padding: 4px 8px;
-        border-radius: 5px;
-    }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -48,27 +16,29 @@
         <li ><a href="#habilidades" class="indice">Habilidades</a></li>
     </ol>
 
-    <h1>Danubio Rafael Souza Lopes</h1>
-
-    <img src="profile.png" width="250px" alt="" id="Imagem">
-
-    <p id="descricao">Tenho 20 anos, atualmente moro em Canindé
-        , Ceará, Brasil.<br> Sou Apaixonado por <strong>Tecnologia</strong> e por <strong>Games</strong>.</p>
+    <div id="div-profile">
+        <h1>Danubio Rafael Souza Lopes</h1>
+        <img src="profile.png" width="250px" alt="" id="Imagem">
+        <p id="descricao">Tenho 20 anos, atualmente moro em Canindé
+            , Ceará, Brasil.<br> Sou Apaixonado por <strong>Tecnologia</strong> e por <strong>Games</strong>.</p>
+    </div>
     
-    <p><strong>Habilidades que mais me orgulho:</strong></p>
+    <div id="div-skills">
+        <p><strong>Habilidades que mais me orgulho:</strong></p>
 
-    <ol id="habilidades">
-        <li id="skill-main"> <strong>Aprendo rapido</strong></li>
-        <li>Empatia</li>
-    </ol>
+        <ol id="habilidades">
+            <li id="skill-main"> <strong>Aprendo rapido</strong></li>
+            <li>Empatia</li>
+        </ol>
 
-    <p><strong>Outras Habilidades:</strong></p>
+        <p><strong>Outras Habilidades:</strong></p>
 
-    <ul>
-        <li>Javascript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ul>
+        <ul>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </div>
     
 </body>
 </html>

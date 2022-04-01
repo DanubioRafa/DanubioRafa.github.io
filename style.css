@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;600;700&display=swap');
+
+
+*{
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+}    
+
+body{
+    background-color: #1D1E18;
+    color: #D3D4D9;
+}
+
+h1{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Barlow', sans-serif;
+}
+
+#skill-main{
+    font-size: 1.03em;
+}
+
+.indice{
+    color: #D3D4D9;
+    background-color: #453488;
+    line-height: 35px;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+#div-profile{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+#div-skills{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+ol, ul{
+    text-align: center;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
