@@ -1,19 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;600;700&display=swap');
 
+:root{
+    --corbranca: whitesmoke;
+    --cor1: #1d1d1d;
+    --cor2: #22252A;
+    --cor3: #000000;
+    --cor4: #FDBA12;
+    --cor5: #FF0000;
+}
 
 *{
     text-decoration: none;
     font-family: 'Barlow', sans-serif;
+    margin: 0;
 }    
 
-body{
-    background-color: #1D1E18;
-    color: #D3D4D9;
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    border-bottom: .5px solid var(--cor5);
+}
+#rafael{
+    color: var(--cor5);
+}
+.optHeader{
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 25px;
+    padding: 1px 8px;
+    border: 3px solid black;
+    border-radius: 7px;
+    transition: 0.2s;
+}
+.optHeader:hover{
+    background-color: var(--cor5);
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 80px;
 }
 
-h1{
-    font-family: 'Barlow', sans-serif;
-    font-weight: 600;
+main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 0px 110px;
+}
+#imagem{
+   width: 400px;
 }
 
 p{
@@ -24,28 +65,69 @@ p{
     font-size: 1.03em;
 }
 
-.indice{
-    color: #D3D4D9;
-    background-color: #453488;
+.menu-btn{
+    color: black;
+    background-color: var(--corbranca);
     line-height: 35px;
-    padding: 4px 8px;
+    padding: 0px 8px;
     border-radius: 5px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+.menu-btn:hover{
+    background-color: var(--cor5);
+}
+#sectionLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#btn-projects{
+    width: 200px;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    color: white;
+    background-color: var(--cor5);
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: 0.3s;
+}
+#btn-projects:hover{
+    border: 3px solid black;
 }
 
 #div-profile{
-    width: 65%;
-    margin: auto;
     text-align: center;
+    margin-bottom: 40px;
+}
+#name{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 20px;
+    transition: 0.5s;
 }
 
+
 #div-skills{
-    width: 65%;
-    margin: auto;
     text-align: center;
+}
+#title-skills{
+    font-size: 1.40em;
+    margin-bottom: 15px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 8px;
 }
 ol, ul{
     text-align: center;
     padding: 0;
+    line-height: 1.1em;
 }
 li{
     list-style: none;
