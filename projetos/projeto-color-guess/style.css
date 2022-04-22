@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#sectionRGB{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border: 2px solid black;
+}
+#placar{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 200px;
+}
+ul{
+    list-style: none;
+}
+.ball{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.ball:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+#options{
+    width: 400px;
+    height: 100px;
+    padding: 0px;
+    margin-top: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#sectionOpt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#reset-game{
+    width: 50px;
+    cursor: pointer;
+}
