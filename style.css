@@ -1,71 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;600;700&display=swap');
 
-:root{
+:root {
     --corbranca: whitesmoke;
     --cor1: #1d1d1d;
     --cor2: #22252A;
     --cor3: #000000;
     --cor4: #FDBA12;
     --cor5: #FF0000;
+    --cor6: rgba(128, 128, 128, 0.486);
 }
 
-*{
+* {
     text-decoration: none;
     font-family: 'Barlow', sans-serif;
     margin: 0;
-}    
+}
 
-header{
+header {
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 50px;
-    border-bottom: .5px solid var(--cor5);
+    margin-bottom: 50px;
+    background-color: var(--cor1);
 }
-#rafael{
+
+h1 {
+    color: white;
+    cursor: pointer;
+}
+
+#rafael {
     color: var(--cor5);
 }
-.optHeader{
-    color: black;
+
+.optHeader {
+    color: white;
     font-size: 1.2em;
-    font-weight: bold;
+    font-weight: 600;
     height: 25px;
     padding: 1px 8px;
-    border: 3px solid black;
-    border-radius: 7px;
-    transition: 0.2s;
+
 }
-.optHeader:hover{
-    background-color: var(--cor5);
+
+.optHeader:hover {
+    border-top: 2px solid var(--cor5);
+    border-bottom: 2px solid var(--cor5);
+
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     gap: 20px;
     height: 80px;
 }
 
-main{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    padding: 0px 110px;
-}
-#imagem{
-   width: 400px;
+
+#imagem {
+    width: 400px;
 }
 
-p{
+p {
     font-family: 'Barlow', sans-serif;
 }
 
-#skill-main{
+#skill-main {
     font-size: 1.03em;
 }
 
-.menu-btn{
+.menu-btn {
     color: black;
     background-color: var(--corbranca);
     line-height: 35px;
@@ -74,17 +79,21 @@ p{
     font-weight: 600;
     transition: 0.2s;
 }
-.menu-btn:hover{
+
+.menu-btn:hover {
     background-color: var(--cor5);
 }
-#sectionLeft{
+
+#sectionLeft {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 15px;
+    color: black;
 }
-#btn-projects{
+
+#btn-projects {
     width: 200px;
     padding: 5px 10px;
     font-size: 1.1em;
@@ -93,18 +102,19 @@ p{
     font-weight: 700;
     text-align: center;
     border-radius: 5px;
-    border: 3px solid white;
     transition: 0.3s;
 }
-#btn-projects:hover{
-    border: 3px solid black;
+
+#btn-projects:hover {
+    color: black;
 }
 
-#div-profile{
+#div-profile {
     text-align: center;
     margin-bottom: 40px;
 }
-#name{
+
+#name {
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
     font-size: 2em;
@@ -113,35 +123,50 @@ p{
 }
 
 
-#div-skills{
+#div-skills {
     text-align: center;
 }
-#title-skills{
+
+#title-skills {
     font-size: 1.40em;
     margin-bottom: 15px;
 }
-h3{
+
+h3 {
     margin-top: 20px;
     margin-bottom: 8px;
 }
-ol, ul{
+
+ol,
+ul {
     text-align: center;
     padding: 0;
     line-height: 1.1em;
 }
-li{
+
+li {
     list-style: none;
 }
-main{
-    width: 900px;
+
+main {
+    width: 80vw;
+    margin-top: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     flex-wrap: wrap;
+    gap: 50px;
+    padding: 0px 110px;
+
 }
-.project-imgs{
+
+
+/* Começa a página projetos*/
+
+.project-imgs {
     margin-top: 30px;
     width: 400px;
-    border: 2px solid black;
+    padding: 10px;
+    border: 3px solid rgba(128, 128, 128, 0.486);
+    border-radius: 10px;
 }
