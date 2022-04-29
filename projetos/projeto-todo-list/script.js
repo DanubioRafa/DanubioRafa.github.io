@@ -15,16 +15,14 @@ function addEventToCriarTarefa() {
     let valueInputTextoTarefa = elementInputTextoTarefa.value;
 
     if (valueInputTextoTarefa.length !== 0) {
-      let createElementLi = document.createElement('li');
+      const createElementLi = document.createElement('li');
       createElementLi.innerText = valueInputTextoTarefa;
       elementListaTarefas.appendChild(createElementLi);
-
       elementInputTextoTarefa.value = '';
     }
   });
 }
 addEventToCriarTarefa();
-
 
 function addEventToUlLi() {
   elementListaTarefas.addEventListener('click', (evento) => {
@@ -35,17 +33,20 @@ function addEventToUlLi() {
 
       if (!valueClassEvento.includes('selected')) {
         evento.target.classList.add('selected');
-        evento.target.style.backgroundColor = 'gray';
-      }
 
-      for (let index = 0; index < elementListaTarefas.children.length; index += 1) {
-        let valueClassesNEvento = listaTarefasChildren[index].classList.value;
+        for (let index = 0; index < elementListaTarefas.children.length; index += 1) {
+          let valueClassesNEvento = listaTarefasChildren[index].classList.value;
 
-        if (listaTarefasChildren[index] != evento.target && valueClassesNEvento.includes('selected')) {
-          listaTarefasChildren[index].classList.remove('selected');
-          listaTarefasChildren[index].style.backgroundColor = '';
+          if (listaTarefasChildren[index] != evento.target && valueClassesNEvento.includes('selected')) {
+            listaTarefasChildren[index].classList.remove('selected');
+          }
         }
+        
+      } else {
+        evento.target.classList.remove('selected');
       }
+
+
     }
 
   })
@@ -201,15 +202,15 @@ function addEventToMoverBaixo() {
 addEventToMoverBaixo();
 
 
-function addEventToRemoverSelecionado(){
-    elementButtonRemoverSelecionado.addEventListener('click', ()=>{
+function addEventToRemoverSelecionado() {
+  elementButtonRemoverSelecionado.addEventListener('click', () => {
 
-        elementSelected = document.getElementsByClassName('selected')[0];
-        if (elementSelected !== undefined){
-            elementListaTarefas.removeChild(elementSelected);
-            console.log("está passando aqui")
-        }
-    })
+    elementSelected = document.getElementsByClassName('selected')[0];
+    if (elementSelected !== undefined) {
+      elementListaTarefas.removeChild(elementSelected);
+      console.log("está passando aqui")
+    }
+  })
 }
 
 addEventToRemoverSelecionado();
