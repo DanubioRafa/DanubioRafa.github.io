@@ -59,7 +59,7 @@ nav {
 
 
 #imagem {
-    width: 400px;
+    width: 35vw;
 }
 
 p {
@@ -157,7 +157,6 @@ main {
     flex-wrap: wrap;
     gap: 50px;
     padding: 0px 110px;
-
 }
 
 
