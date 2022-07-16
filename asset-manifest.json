@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/DanubioRafa/static/css/main.2176100d.css",
-    "main.js": "/DanubioRafa/static/js/main.a376585f.js",
-    "index.html": "/DanubioRafa/index.html",
-    "main.2176100d.css.map": "/DanubioRafa/static/css/main.2176100d.css.map",
-    "main.a376585f.js.map": "/DanubioRafa/static/js/main.a376585f.js.map"
+    "main.css": "/danubiorafa/static/css/main.2176100d.css",
+    "main.js": "/danubiorafa/static/js/main.da582236.js",
+    "index.html": "/danubiorafa/index.html",
+    "main.2176100d.css.map": "/danubiorafa/static/css/main.2176100d.css.map",
+    "main.da582236.js.map": "/danubiorafa/static/js/main.da582236.js.map"
   },
   "entrypoints": [
     "static/css/main.2176100d.css",
-    "static/js/main.a376585f.js"
+    "static/js/main.da582236.js"
   ]
 }
