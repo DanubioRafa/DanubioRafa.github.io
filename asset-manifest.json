@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/danubiorafa/static/css/main.2176100d.css",
-    "main.js": "/danubiorafa/static/js/main.da582236.js",
-    "index.html": "/danubiorafa/index.html",
-    "main.2176100d.css.map": "/danubiorafa/static/css/main.2176100d.css.map",
-    "main.da582236.js.map": "/danubiorafa/static/js/main.da582236.js.map"
+    "main.css": "/danubiorafa.github.io/static/css/main.2176100d.css",
+    "main.js": "/danubiorafa.github.io/static/js/main.cbb276bc.js",
+    "index.html": "/danubiorafa.github.io/index.html",
+    "main.2176100d.css.map": "/danubiorafa.github.io/static/css/main.2176100d.css.map",
+    "main.cbb276bc.js.map": "/danubiorafa.github.io/static/js/main.cbb276bc.js.map"
   },
   "entrypoints": [
     "static/css/main.2176100d.css",
-    "static/js/main.da582236.js"
+    "static/js/main.cbb276bc.js"
   ]
 }
