@@ -47,3 +47,21 @@ nav > a:hover {
  background-color: var(--cor5);
  color: black;
 }
+
+@media screen and (min-width: 600px) {
+  header {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  nav {
+    width: 40%;
+    gap: 0px;
+  }
+
+  nav > a {
+    padding: 4px 9px;
+    border: 1px solid var(--cor5);
+    font-size: 1.2rem;
+  }
+}
