@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;600;700&display=swap');
+
+:root {
+  --corbranca: whitesmoke;
+  --cor1: #1d1d1d;
+  --cor2: #22252A;
+  --cor3: #000000;
+  --cor4: #FDBA12;
+  --cor5: #FF0000;
+  --cor6: rgba(128, 128, 128, 0.486);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.App {
+  height: 100vh;
+}

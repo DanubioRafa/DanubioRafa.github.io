@@ -1,0 +1,24 @@
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+.projectCard li{
+  list-style: none;
+}
+
+.projectPage{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  text-align: center;
+
+}

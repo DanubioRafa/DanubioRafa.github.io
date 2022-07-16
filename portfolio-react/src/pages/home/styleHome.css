@@ -1,0 +1,37 @@
+:root {
+  --corbranca: whitesmoke;
+  --cor1: #1d1d1d;
+  --cor2: #22252A;
+  --cor3: #000000;
+  --cor4: #FDBA12;
+  --cor5: #FF0000;
+  --cor6: rgba(128, 128, 128, 0.486);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  text-align: center;
+}
+
+.welcomeText {
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+img {
+  width: 65vw;
+}
+.Button a {
+  border-radius: 6px;
+  margin-top: 20px ;
+  display: inline-block;
+  padding: 15px 50px;
+  color: wheat;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: var(--cor5);
+}
