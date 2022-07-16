@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DanubioRafa/static/css/main.2176100d.css",
+    "main.js": "/DanubioRafa/static/js/main.a376585f.js",
+    "index.html": "/DanubioRafa/index.html",
+    "main.2176100d.css.map": "/DanubioRafa/static/css/main.2176100d.css.map",
+    "main.a376585f.js.map": "/DanubioRafa/static/js/main.a376585f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2176100d.css",
+    "static/js/main.a376585f.js"
+  ]
+}
