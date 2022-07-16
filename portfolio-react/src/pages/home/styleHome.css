@@ -8,7 +8,7 @@
   --cor6: rgba(128, 128, 128, 0.486);
 }
 
-main {
+.main-home {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +24,8 @@ main {
 img {
   width: 65vw;
 }
-.Button a {
+
+.link-projects {
   border-radius: 6px;
   margin-top: 20px ;
   display: inline-block;
@@ -34,4 +35,36 @@ img {
   text-transform: uppercase;
   font-weight: bold;
   background: var(--cor5);
+}
+
+.link-projects:hover {
+  color: black;
+  transition-duration: 0.3s;
+}
+
+@media screen and (min-width: 600px)  {
+  .main-home {
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 35px;
+    text-align: center;
+  }
+
+  #link-welcome {
+    display: block;
+  }
+
+  .welcomeText {
+    margin-top: 0px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  img {
+    width: 40vw;
+  }
+
+  .link-projects {
+    display: none;
+  }
 }
