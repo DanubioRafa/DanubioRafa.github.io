@@ -11,7 +11,9 @@ section ul{
 
 main {
   display: flex;
+  height: 85%;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
 }
