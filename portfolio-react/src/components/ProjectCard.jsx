@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './projectCard.css'
 
 export default class ProjectCard extends Component {
   render() {
@@ -6,14 +7,18 @@ export default class ProjectCard extends Component {
     return (
       <div className="projectCard">
         <h3>{project.name}</h3>
-        <img src={project.imgSrc} alt={project.name}/>
-
-        <ul>
-          Skills utilizadas:
+        <a href={project.link}>
+        <img className="project-img" src={project.imgSrc} alt={project.name}/>
+        </a>
+        
+        <section className="skills">
+          <h4>Skills utilizadas:</h4>
+        <ul className="skills-list">
           { project.skills.map((skill) => (
             <li key={ skill + project.key }>{skill}</li>
           ))}
         </ul>
+        </section>
 
       </div>
     )
