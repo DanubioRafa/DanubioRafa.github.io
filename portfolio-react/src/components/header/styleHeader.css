@@ -1,20 +1,9 @@
-:root {
-  --corbranca: whitesmoke;
-  --cor1: #1d1d1d;
-  --cor2: #22252A;
-  --cor3: #000000;
-  --cor4: #FDBA12;
-  --cor5: #FF0000;
-  --cor6: rgba(128, 128, 128, 0.486);
-}
-
 header {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height:15%;
-  background-color: black;
+  height: 100px;
 }
 
 h2 {
@@ -22,30 +11,22 @@ h2 {
   color: white;
 }
 
-#firstName {
-  color: #FF0000;
-}
-
 nav {
   margin-top: 4px;
   width: 50%;
   display: flex;
   justify-content: space-evenly;
-  gap: 6px;
 }
 
 nav > a {
-  color: white;
   text-decoration: none;
-  padding: 3px 7px;
-  border: 1px solid var(--cor5);
-  border-radius: 5px;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
+  font-size: 1.4rem;
+  color: var(--corbranca);
 }
 
 nav > a:hover {
- background-color: var(--cor5);
- color: black;
+  color: white;
 }
 
 @media screen and (min-width: 600px) {
@@ -56,12 +37,9 @@ nav > a:hover {
 
   nav {
     width: 40%;
-    gap: 0px;
   }
 
   nav > a {
     padding: 4px 9px;
-    border: 1px solid var(--cor5);
-    font-size: 1.2rem;
   }
 }
