@@ -4,10 +4,11 @@
   --corbranca: whitesmoke;
   --cor1: #1d1d1d;
   --cor2: #22252A;
-  --cor3: #000000;
+  --cor3: #141414;
   --cor4: #FDBA12;
-  --cor5: #FF0000;
+  --cor5: #5854BF;
   --cor6: rgba(128, 128, 128, 0.486);
+  --gradient: linear-gradient(90deg, rgba(139,53,140,1) 0%, rgba(88,84,191,1) 61%);
 }
 
 * {
@@ -17,5 +18,10 @@
 }
 
 .App {
-  height: 100vh;
+  background-color: #0D0D0D;
+  background-image: url('/src/assets/banner-bg.png');
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  color: white;
 }
