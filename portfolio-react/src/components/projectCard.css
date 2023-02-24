@@ -24,6 +24,8 @@ h3{
   display: flex;
   gap: 10px;
   align-items: center;
+  max-width: 500px;
+  height: 100px;
 }
 
 .project-img {
@@ -33,4 +35,10 @@ h3{
 
 .project-img:hover {
   box-shadow: 0px 0px 10px 2px #0000008f;
+}
+
+@media screen and (max-width: 500px){
+  .projectCard img {
+    width: 75vw;
+  }
 }
